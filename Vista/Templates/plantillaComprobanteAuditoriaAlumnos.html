@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+    <title>Comprobante de Auditoría de Alumnos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            color: #000;
+            background-color: #ffffff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+
+            table.border th, table.border td {
+                padding: 6px;
+                border: 1px solid black;
+            }
+
+        th {
+            background-color: #d8d8d8;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .header-table td {
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        .header-center {
+            text-align: center;
+        }
+
+            .header-center h1 {
+                margin: 0;
+                font-size: 24px;
+            }
+
+        .section-title {
+            background-color: #d8d8d8;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <table class="header-table">
+        <tr>
+            <td style="width:20%;"></td>
+            <td style="width:60%;" class="header-center">
+                <h1>COMPROBANTE DE AUDITORÍA</h1>
+            </td>
+            <td style="width:20%;"></td>
+        </tr>
+    </table>
+
+    <!-- Información de la Auditoría -->
+    <table>
+        <tr>
+            <td style="width:20%;"><strong>Alumno:</strong></td>
+            <td style="width:30%;">@ALUMNO</td>
+            <td style="width:20%;"><strong>Usuario:</strong></td>
+            <td style="width:30%;">@USUARIO</td>
+        </tr>
+        <tr>
+            <td style="width:20%;"><strong>Fecha y Hora:</strong></td>
+            <td style="width:30%;">@FECHA_HORA</td>
+            <td style="width:20%;"><strong>Acción:</strong></td>
+            <td style="width:30%;">@ACCION</td>
+        </tr>
+    </table>
+
+    <!-- Datos Anteriores -->
+    <table class="border">
+        <tr class="section-title">
+            <td colspan="2">DATOS ANTERIORES</td>
+        </tr>
+        <tr>
+            <td><strong>Ciclo Académico:</strong></td>
+            <td>@CICLO_ACADEMICO_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Grado Académico:</strong></td>
+            <td>@GRADO_ACADEMICO_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre:</strong></td>
+            <td>@NOMBRE_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Apellido:</strong></td>
+            <td>@APELLIDO_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>DNI:</strong></td>
+            <td>@DNI_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Fecha de Nacimiento:</strong></td>
+            <td>@FECHA_NACIMIENTO_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Domicilio:</strong></td>
+            <td>@DOMICILIO_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Localidad:</strong></td>
+            <td>@LOCALIDAD_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Código Postal:</strong></td>
+            <td>@CODIGO_POSTAL_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Provincia:</strong></td>
+            <td>@PROVINCIA_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>País:</strong></td>
+            <td>@PAIS_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Email:</strong></td>
+            <td>@EMAIL_ANTERIOR</td>
+        </tr>
+        <tr>
+            <td><strong>Sexo:</strong></td>
+            <td>@SEXO_ANTERIOR</td>
+        </tr>
+    </table>
+
+    <!-- Datos Nuevos -->
+    <table class="border">
+        <tr class="section-title">
+            <td colspan="2">DATOS NUEVOS</td>
+        </tr>
+        <tr>
+            <td><strong>Ciclo Académico:</strong></td>
+            <td>@CICLO_ACADEMICO</td>
+        </tr>
+        <tr>
+            <td><strong>Grado Académico:</strong></td>
+            <td>@GRADO_ACADEMICO</td>
+        </tr>
+        <tr>
+            <td><strong>Nombre:</strong></td>
+            <td>@NOMBRE</td>
+        </tr>
+        <tr>
+            <td><strong>Apellido:</strong></td>
+            <td>@APELLIDO</td>
+        </tr>
+        <tr>
+            <td><strong>DNI:</strong></td>
+            <td>@DNI</td>
+        </tr>
+        <tr>
+            <td><strong>Fecha de Nacimiento:</strong></td>
+            <td>@FECHA_NACIMIENTO</td>
+        </tr>
+        <tr>
+            <td><strong>Domicilio:</strong></td>
+            <td>@DOMICILIO</td>
+        </tr>
+        <tr>
+            <td><strong>Localidad:</strong></td>
+            <td>@LOCALIDAD</td>
+        </tr>
+        <tr>
+            <td><strong>Código Postal:</strong></td>
+            <td>@CODIGO_POSTAL</td>
+        </tr>
+        <tr>
+            <td><strong>Provincia:</strong></td>
+            <td>@PROVINCIA</td>
+        </tr>
+        <tr>
+            <td><strong>País:</strong></td>
+            <td>@PAIS</td>
+        </tr>
+        <tr>
+            <td><strong>Email:</strong></td>
+            <td>@EMAIL</td>
+        </tr>
+        <tr>
+            <td><strong>Sexo:</strong></td>
+            <td>@SEXO</td>
+        </tr>
+    </table>
+</body>
+</html>

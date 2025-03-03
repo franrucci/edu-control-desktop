@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+    <title>Recibo de Pago de Cuota</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            color: #000;
+            background-color: #ffffff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+
+        table.border th, table.border td {
+            padding: 6px;
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: #d8d8d8;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .header-table td {
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        .header-center {
+            text-align: center;
+        }
+
+        .header-center h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .section-title {
+            background-color: #d8d8d8;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <table class="header-table">
+        <tr>
+            <td style="width:20%;"></td>
+            <td style="width:60%;" class="header-center">
+                <h1>RECIBO DE PAGO DE CUOTA</h1>
+            </td>
+            <td style="width:20%;"></td>
+        </tr>
+    </table>
+
+    <!-- Información del Alumno -->
+    <table>
+        <tr>
+            <td style="width:20%;"><strong>Alumno:</strong></td>
+            <td style="width:30%;">@ALUMNO</td>
+            <td style="width:20%;"><strong>Ciclo Académico:</strong></td>
+            <td style="width:30%;">@CICLO_ACADEMICO</td>
+        </tr>
+        <tr>
+            <td style="width:20%;"><strong>Grado:</strong></td>
+            <td style="width:30%;">@GRADO</td>
+        </tr>
+    </table>
+
+    <!-- Información del Pago -->
+    <table class="border">
+        <tr class="section-title">
+            <td colspan="4">DETALLES DEL PAGO</td>
+        </tr>
+        <tr>
+            <td><strong>Fecha de Pago:</strong></td>
+            <td>@FECHA_PAGO</td>
+            <td><strong>Monto:</strong></td>
+            <td>@MONTO</td>
+        </tr>
+        <tr>
+            <td><strong>Estado de Cuota:</strong></td>
+            <td>@ESTADO_CUOTA</td>
+            <td><strong>Tipo de Pago:</strong></td>
+            <td>@TIPO_PAGO</td>
+        </tr>
+        <tr>
+            <td><strong>Código de Comprobante:</strong></td>
+            <td colspan="3">@CODIGO_COMPROBANTE</td>
+        </tr>
+    </table>
+</body>
+</html>
