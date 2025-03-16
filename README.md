@@ -73,6 +73,12 @@ Los reportes disponibles son:
 - Comprobante de Pago de Cuota Mensual.
 - Registros de Auditorías.
 
+## Tecnologías utilizadas
+- Tipo de aplicación: Aplicación de escritorio.
+- Lenguaje de programación: C#
+- Framework: .NET con Entity Framework.
+- Base de datos: SQL Server.
+
 ## Video de presentación de EduControl
 A continuación, te comparto el link para que veas el funcionamiento del sistema. En el video no se muestra la parte de gestión de cuotas mensuales y auditoria, en breve lo voy a actualizar.<br>
 **Link:** https://youtu.be/E-W0mEajsX8
