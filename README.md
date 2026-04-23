@@ -80,5 +80,5 @@ Los reportes disponibles son:
 - Base de datos: SQL Server.
 
 ## Video de presentación de EduControl
-A continuación, te comparto el link para que veas el funcionamiento del sistema. En el video no se muestra la parte de gestión de cuotas mensuales y auditoria, en breve lo voy a actualizar.<br>
+A continuación, te comparto el link para que veas el funcionamiento del sistema.<br>
 **Link:** https://youtu.be/E-W0mEajsX8
