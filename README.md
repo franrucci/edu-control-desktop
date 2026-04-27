@@ -81,4 +81,4 @@ Los reportes disponibles son:
 
 ## Video de presentación de EduControl
 A continuación, te comparto el link para que veas el funcionamiento del sistema.<br>
-**Link:** https://youtu.be/E-W0mEajsX8
+**Link:** https://youtu.be/KoWWVUt29GQ
